@@ -1,0 +1,15 @@
+document.firstElementChild - gets the first element of the respective child set
+document.lastElementChild - gets the last element of the respective child set
+
+document.getElementByTagName("button"); - will give an array of all button type tags in web page
+document.getElementByClassName("btn"); - will give an array of all .btn class added tags in web page
+document.getElementByID("btn"); - will give an array of all #btn ID added tags in web page
+
+document.querySelector("button .btn #submitbtn") - gets the all the buttons which are button tagged and .bt class added and #submitbtn id added all combined
+
+
+We can assign any of the above to a var varible
+var H1button = document.getElementByID("btn");
+
+we can change those gathered element related properties also
+document.querySelector("h1").innerHTML = "Good bye";
